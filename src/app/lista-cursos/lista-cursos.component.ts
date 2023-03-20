@@ -1,5 +1,5 @@
 import { Component, ViewChild } from '@angular/core';
-import { MatTable } from '@angular/material/table';
+import { MatLegacyTable as MatTable } from '@angular/material/legacy-table';
 
 
 export interface DynamicListCursosComponent {
