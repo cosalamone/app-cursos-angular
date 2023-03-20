@@ -1,6 +1,9 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { MatLegacyTableModule as MatTableModule } from '@angular/material/legacy-table';
+import {MatToolbarModule} from '@angular/material/toolbar';
+import {MatListModule} from '@angular/material/list';
+import {MatDividerModule} from '@angular/material/divider';
 
 
 
@@ -20,7 +23,10 @@ import { ListaCursosComponent } from './lista-cursos/lista-cursos.component';
   ],
   imports: [
     BrowserModule,
-    MatTableModule
+    MatTableModule,
+    MatToolbarModule,
+    MatListModule,
+    MatDividerModule
   ],
   providers: [],
   bootstrap: [AppComponent]

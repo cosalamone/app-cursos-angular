@@ -1,4 +1,7 @@
-header{
+header {
   background-color: #122b58;
   height: var(--toolbar-height);
+  font-family: 'Lato', sans-serif;
+  color: white;
+  font-weight: bold;
 }

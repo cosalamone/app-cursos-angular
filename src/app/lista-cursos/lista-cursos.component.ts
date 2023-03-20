@@ -13,7 +13,10 @@ export interface DynamicListCursosComponent {
 
 const CURSOS_DATA: DynamicListCursosComponent[] = [
   { position: 1, name: 'Diseño Web', duration: 10, teacher: 'Perez', comision: 3051, },
-  { position: 2, name: 'JavaScript', duration: 12, teacher: 'Alonso', comision: 4020, }
+  { position: 2, name: 'JavaScript', duration: 12, teacher: 'Alonso', comision: 4020, },
+  { position: 3, name: 'Angular', duration: 12, teacher: 'Gonzalez', comision: 2564, },
+  { position: 4, name: 'React', duration: 10, teacher: 'Rodriguez', comision: 5279, },
+
 ];
 
 /**
