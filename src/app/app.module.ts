@@ -12,6 +12,7 @@ import { SidebarComponent } from './sidebar/sidebar.component';
 import { ToolbarComponent } from './toolbar/toolbar.component';
 import { PageWrapperComponent } from './page-wrapper/page-wrapper.component';
 import { ListaCursosComponent } from './lista-cursos/lista-cursos.component';
+import { ListaAlumnosComponent } from './lista-alumnos/lista-alumnos.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { ListaCursosComponent } from './lista-cursos/lista-cursos.component';
     ToolbarComponent,
     PageWrapperComponent,
     ListaCursosComponent,
+    ListaAlumnosComponent,
   ],
   imports: [
     BrowserModule,
